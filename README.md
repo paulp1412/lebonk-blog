@@ -30,6 +30,7 @@ Popular combos include:
 * Combo 1: hammer equipped > Leap Attack > Hammer Throw > Burrow > Dash
 * Combo 2: no hammer equipped > Burrow > Dash (on target with hammer!) > Hammer Throw > Burrow > Dash
 * Combo 3: hammer equipped > Hammer Throw > Combo 2
+
 <details>
     <summary>Combo 1 gif</summary>
     ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
