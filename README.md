@@ -8,8 +8,7 @@ The core mechanics are split up among two scenarios (and can only be used in tho
 ### The mole *has* a hammer in its hand
 * Hammer Throw: the mole throws the hammer in the direction it currently looks at, if another mole is in a certain range and field of view, the hammer will be targetting that mole and inflict knockback.
 <details>
-    <summary>Gif</summary>
-        ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)
+    <summary>![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)</summary>
 </details>
 * Leap Attack: the mole leaps forward and creates a shockwave underneath itself, knocking up (stunning) all moles (overground and underground) in a circular shape
 ### The mole *does not* have a hammer in its hand
