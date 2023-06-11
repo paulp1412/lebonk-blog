@@ -29,10 +29,13 @@ Those individual mechanics create the possiblity to chain them together in order
 Popular combos include:
 * Combo 1: hammer equipped > Leap Attack > Hammer Throw > Burrow > Dash
 * Combo 2: no hammer equipped > Burrow > Dash (on target with hammer!) > Hammer Throw > Burrow > Dash
-* Combo 3: hammer equipped > Hammer Throw > Combo 2 <details>
-            <summary>Combo 1 gif</summary>
-            ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
-        </details>
+* Combo 3: hammer equipped > Hammer Throw > Combo 2
+
+<br>
+<details>
+    <summary>Combo 1 gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
+</details>
 
 Although those mechanics are really fun to use and also feel quiet satisfieing if used successfully on your opponents, something was still missing. Some maps had the issue that rounds took way too long to be played out due to camper spots or obstacles that prevent the players from falling down the edge of the arena too quickly. Some arenas also made use of so-called *Death Objects* that - how the name already reveals - kill the player upon contact. However, playing numerous *Death Objects* would take away the fun of the already decent gameplay so we introduced *Third Party Events* that are triggered at random moments during a round in order to make the arena more messi and add a factor of randomness to the current gameplay.
 
