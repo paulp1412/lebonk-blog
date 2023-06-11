@@ -20,9 +20,9 @@ The core mechanics are split up among two scenarios (and can only be used in tho
     ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/burrow.gif)
   </details>
 * Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
-<summary>gif</summary>
-![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
-</details>
+    <summary>gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
+    </details>
   
 
 Those individual mechanics create the possiblity to chain them together in order to do some neat combos and bonk the other moles out of the arena!
