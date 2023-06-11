@@ -7,13 +7,22 @@ Hi, my name is Paul and alongside two colleagues from university I created the g
 The core mechanics are split up among two scenarios (and can only be used in those scenarios!):
 ### The mole *has* a hammer in its hand
 * Hammer Throw: the mole throws the hammer in the direction it currently looks at, if another mole is in a certain range and field of view, the hammer will be targetting that mole and inflict knockback.  <details>
-              <summary>gif</summary>
-                ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)
-            </details>
-* Leap Attack: the mole leaps forward and creates a shockwave underneath itself, knocking up (stunning) all moles (overground and underground) in a circular shape
+  <summary>gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)
+</details>
+* Leap Attack: the mole leaps forward and creates a shockwave underneath itself, knocking up (stunning) all moles (overground and underground) in a circular shape <details>
+  <summary>gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_leap.gif)
+</details>
 ### The mole *does not* have a hammer in its hand
-* Burrow: the mole goes underground, gains a slight increase in movement speed and cannot be targetted by the *Hammer Throw*; this mechanic is either cancelled by a time-limit, by pressing the same button again or by using the *Dash*
-* Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus 
+* Burrow: the mole goes underground, gains a slight increase in movement speed and cannot be targetted by the *Hammer Throw*; this mechanic is either cancelled by a time-limit, by pressing the same button again or by using the *Dash* <details>
+  <summary>gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/burrow.gif)
+</details>
+* Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
+  <summary>gif</summary>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
+</details>
 
 Those individual mechanics create the possiblity to chain them together in order to do some neat combos and bonk the other moles out of the arena!
 Popular combos include:
