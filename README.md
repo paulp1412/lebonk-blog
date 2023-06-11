@@ -64,4 +64,4 @@ It was important for us - especially me - that level elements blend in with the 
 After we introduced those Third-Party Events, rounds seemed to end quicker on average and players also seemed to enjoy the increasing level of randomness as an additional danger-factor while maneuvering their moles through each arena.
 
 ## Code
-In case you are interested in the implementation, check out the 'scripts' folder of this repository and take a look at the base ThirdPartyEvent.cs as well as the IceSpikeSpawner.cs as an example. Used assets: **UnityAtoms**, **OdinInspector**
+In case you are interested in the implementation, check out the 'scripts' folder of this repository and take a look at the base ThirdPartyEvent.cs as well as the IceSpikeSpawner.cs as an example. Used assets: **UnityAtoms** & **OdinInspector**
