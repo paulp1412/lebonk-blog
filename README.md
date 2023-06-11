@@ -53,7 +53,7 @@ It was important for us - especially me - that level elements blend in with the 
     </details>
 * Graveyard: Zombie Hands that knock the mole towards the next edge where it can fall down (credits to Iris Trummer, who implemented this Level Element during her transfer-project for **Le Bonk**)<details>
         <summary>gif</summary>
-        ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/zombie_hand.gif)
+        ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/zombie_hands.gif)
     </details>
 * Japan: Sky Lanterns that fall from the sky and create a fire on the ground (*Death Object*) for a short amount of time<details>
         <summary>gif</summary>
