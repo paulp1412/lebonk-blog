@@ -6,7 +6,7 @@ Hi, my name is Paul and alongside two colleagues from university I created the g
 ## The core mechanics
 The core mechanics are split up among two scenarios (and can only be used in those scenarios!):
 ### The mole *has* a hammer in its hand
-* Hammer Throw: the mole throws the hammer in the direction it currently looks at, if another mole is in a certain range and field of view, the hammer will be targetting that mole and inflict knockback.  <details>
+* Hammer Throw: the mole throws the hammer in the direction it currently looks at, if another mole is in a certain range and field of view, the hammer will be targeting that mole and inflicting knockback.  <details>
         <summary>gif</summary>
         ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)
     </details>
@@ -19,13 +19,13 @@ The core mechanics are split up among two scenarios (and can only be used in tho
         <summary>gif</summary>
         ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/burrow.gif)
     </details>
-* Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
+* Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targeting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
         <summary>gif</summary>
         ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
     </details>
   
 
-Those individual mechanics create the possiblity to chain them together in order to do some neat combos and bonk the other moles out of the arena!
+Those individual mechanics create the possibility to chain them together in order to do some neat combos and bonk the other moles out of the arena!
 Popular combos include:
 * Combo 1: hammer equipped > Leap Attack > Hammer Throw > Burrow > Dash
 * Combo 2: no hammer equipped > Burrow > Dash (on target with hammer!) > Hammer Throw > Burrow > Dash
@@ -36,7 +36,7 @@ Here is an example: <details>
             ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
         </details>
 
-Although those mechanics are really fun to use and also feel quiet satisfieing if used successfully on your opponents, something was still missing. Some maps had the issue that rounds took way too long to be played out due to camper spots or obstacles that prevent the players from falling down the edge of the arena too quickly. Some arenas also made use of so-called *Death Objects* that - how the name already reveals - kill the player upon contact. However, playing numerous *Death Objects* would take away the fun of the already decent gameplay so we introduced *Third Party Events* that are triggered at random moments during a round in order to make the arena more messi and add a factor of randomness to the current gameplay.
+Although those mechanics are really fun to use and also feel quiet satisfying if used successfully on your opponents, something was still missing. Some maps had the issue that rounds took way too long to be played out due to camper spots or obstacles that prevent the players from falling down the edge of the arena too quickly. Some arenas also made use of so-called *Death Objects* that - how the name already reveals - kill the player upon contact. However, playing numerous *Death Objects* would take away the fun of the already decent gameplay so we introduced *Third Party Events* that are triggered at random moments during a round in order to make the arena more messi and add a factor of randomness to the current gameplay.
 
 ## Adding Level Elements (Third-Party Events)
 It was important for us - especially me - that level elements blend in with the theme of each arena, so we created individual ones for each theme:
