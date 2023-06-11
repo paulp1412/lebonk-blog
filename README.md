@@ -1,10 +1,15 @@
 # Le Bonk - Spice up that Gameplay!
 Hi, my name is Paul and alongside two colleagues from university I created the game **Le Bonk** as a project during my master's degree. **Le Bonk** is a couch-versus multiplayer game in which each player controls a mole that can perform a series of attacks in order to knock other moles out of different arenas. I focused on designing and implementing gameplay such as the controller, mechanics and level elements. In this blog I want to explain why we decided to implement such level elements alongside the core mechanics as well as argue, why they are a fun and interesting way to spice up couch-versus multiplayer games.
 
+![](https://github.com/paulp1412/lebonk-blog/blob/main/img/splash.png)
+
 ## The core mechanics
 The core mechanics are split up among two scenarios (and can only be used in those scenarios!):
 ### The mole *has* a hammer in its hand
 * Hammer Throw: the mole throws the hammer in the direction it currently looks at, if another mole is in a certain range and field of view, the hammer will be targetting that mole and inflict knockback.
+
+![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/hammer_throw.gif)
+
 * Leap Attack: the mole leaps forward and creates a shockwave underneath itself, knocking up (stunning) all moles (overground and underground) in a circular shape
 ### The mole *does not* have a hammer in its hand
 * Burrow: the mole goes underground, gains a slight increase in movement speed and cannot be targetted by the *Hammer Throw*; this mechanic is either cancelled by a time-limit, by pressing the same button again or by using the *Dash*
@@ -21,9 +26,12 @@ Although those mechanics are really fun to use and also feel quiet satisfieing i
 ## Adding Level Elements (Third-Party Events)
 It was important for us - especially me - that level elements blend in with the theme of each arena, so we created individual ones for each theme:
 * Wild West: Minecarts that inflict a horrendous amount of knockback
-* Winter: Ice Spikes that also inflict knockback, but not as strong as *Minecarts*
+* Winter: Ice Spikes that also inflict knockback, but not as strong as *Minecarts* (credits to Sandro Figo, who polished the Ice Spike in terms of model, sfx, vfx etc. during his transfer-project for **Le Bonk**)
 * Summer: A Hawk that flies across the arena picking up a mole that is underneath him and dropping above the death zone of the arena (which is a river the mole is not supposed to fall in to)
 * Graveyard: Zombie Hands that knock the mole towards the next edge where it can fall down (credits to Iris Trummer, who implemented this Level Element during her transfer-project for **Le Bonk**)
 * Japan: Sky Lanterns that fall from the sky and create a fire on the ground (*Death Object*) for a short amount of time
 
 After we introduced those Third-Party Events, rounds seemed to end quicker on average and players also seemed to enjoy the increasing level of randomness as an additional danger-factor while maneuvering their moles through each arena.
+
+## Code
+In case you are interested in the implementation, check out the 'scripts' folder of this repository and take a look at the base ThirdPartyEvent.cs as well as the IceSpikeSpawner.cs as an example. Used assets: **UnityAtoms**, **OdinInspector**
