@@ -20,9 +20,9 @@ The core mechanics are split up among two scenarios (and can only be used in tho
     ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/burrow.gif)
   </details>
 * Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
-    <summary>gif</summary>
-    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
-  </details>
+<summary>gif</summary>
+![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
+</details>
   
 
 Those individual mechanics create the possiblity to chain them together in order to do some neat combos and bonk the other moles out of the arena!
@@ -39,8 +39,14 @@ Although those mechanics are really fun to use and also feel quiet satisfieing i
 
 ## Adding Level Elements (Third-Party Events)
 It was important for us - especially me - that level elements blend in with the theme of each arena, so we created individual ones for each theme:
-* Wild West: Minecarts that inflict a horrendous amount of knockback
-* Winter: Ice Spikes that also inflict knockback, but not as strong as *Minecarts* (credits to Sandro Figo, who polished the Ice Spike in terms of model, sfx, vfx etc. during his transfer-project for **Le Bonk**)
+* Wild West: Minecarts that inflict a horrendous amount of knockback <details>
+      <summary>gif</summary>
+      ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
+    </details>
+* Winter: Ice Spikes that also inflict knockback, but not as strong as *Minecarts* (credits to Sandro Figo, who polished the Ice Spike in terms of model, sfx, vfx etc. during his transfer-project for **Le Bonk**) <details>
+  <summary>gif</summary>
+  ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
+</details>
 * Summer: A Hawk that flies across the arena picking up a mole that is underneath him and dropping above the death zone of the arena (which is a river the mole is not supposed to fall in to)
 * Graveyard: Zombie Hands that knock the mole towards the next edge where it can fall down (credits to Iris Trummer, who implemented this Level Element during her transfer-project for **Le Bonk**)
 * Japan: Sky Lanterns that fall from the sky and create a fire on the ground (*Death Object*) for a short amount of time
