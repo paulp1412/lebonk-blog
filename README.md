@@ -21,7 +21,8 @@ The core mechanics are split up among two scenarios (and can only be used in tho
   </details>
 * Dash: this mechanic is only available during *Burrow*; when any other mole that is overground is in a certain range and fov (similar to *Hammer Throw*) the mole's dash will be directly targetting that mole and inflicts knockback; given that the target currently has a hammer equipped, it will be stolen as a bonus <details>
     <summary>gif</summary>
-    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif) </details>
+    ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/dash.gif)
+  </details>
   
 
 Those individual mechanics create the possiblity to chain them together in order to do some neat combos and bonk the other moles out of the arena!
@@ -29,6 +30,10 @@ Popular combos include:
 * Combo 1: hammer equipped > Leap Attack > Hammer Throw > Burrow > Dash
 * Combo 2: no hammer equipped > Burrow > Dash (on target with hammer!) > Hammer Throw > Burrow > Dash
 * Combo 3: hammer equipped > Hammer Throw > Combo 2
+<details>
+  <summary>Combo 1 gif</summary>
+  ![](https://github.com/paulp1412/lebonk-blog/blob/main/gif/combo_1.gif)
+</details>
 
 Although those mechanics are really fun to use and also feel quiet satisfieing if used successfully on your opponents, something was still missing. Some maps had the issue that rounds took way too long to be played out due to camper spots or obstacles that prevent the players from falling down the edge of the arena too quickly. Some arenas also made use of so-called *Death Objects* that - how the name already reveals - kill the player upon contact. However, playing numerous *Death Objects* would take away the fun of the already decent gameplay so we introduced *Third Party Events* that are triggered at random moments during a round in order to make the arena more messi and add a factor of randomness to the current gameplay.
 
